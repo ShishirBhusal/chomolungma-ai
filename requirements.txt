@@ -1,0 +1,13 @@
+# Your existing libraries
+python-dotenv
+langchain-google-genai
+langchain-community
+langchain-core
+langgraph
+tavily-python
+chromadb
+pypdf
+# Add these new ones
+fastapi
+uvicorn[standard]
+pydantic
