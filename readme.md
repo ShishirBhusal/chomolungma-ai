@@ -11,7 +11,7 @@ Instead of spending hours searching blogs and forums, users can interact with a 
 ### Key Features:
 *   **🤖 Stateful, Multi-Step Reasoning:** Built with LangGraph, the agent can execute complex plans, moving sequentially through steps like itinerary creation, gear list generation, and budgeting.
 *   **🧠 Retrieval-Augmented Generation (RAG):** The agent's knowledge is grounded in a vector database (ChromaDB) containing specific information on trekking routes, costs, gear, and safety rules, ensuring factual and relevant responses.
-*   **👁️ Multimodal Vision:** Leveraging Google's Gemini 1.5 Pro, users can upload photos of mountains, gear, or landmarks and get intelligent, contextual identification and information.
+*   **👁️ Multimodal Vision:** Leveraging Google's Gemini 2.5 flash, users can upload photos of mountains, gear, or landmarks and get intelligent, contextual identification and information.
 *   **🔐 Secure User Authentication:** A full authentication system with a Supabase (PostgreSQL) backend allows users to register, log in, and have their conversation history securely saved.
 *   **⚡ Real-time Streaming UI:** The frontend, built with Streamlit, provides a modern chat experience with real-time status updates (showing the agent's "thoughts") and streaming "typing" effects for AI responses.
 *   **✅ Full-Stack Architecture:** A robust system with a clear separation of concerns between the frontend (Streamlit), backend API (FastAPI), and AI core logic.
